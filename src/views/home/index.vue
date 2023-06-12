@@ -1,6 +1,6 @@
 <template>
   <div class="root">
-    <mapEach></mapEach>
+    qeqweqweqwe
   </div>
 </template>
 

@@ -4,7 +4,7 @@
 set -e
 
 # 构建
-yarn build
+npm run build
 
 # cd 到构建输出的目录下
 cd dist
@@ -20,6 +20,6 @@ git commit -m 'deploy'
 # git push -f gitee@gitee.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push -f git@gitee.com:xmy16211127/test1.git master:gh-pages
+git push -f  git@github.com:yabaizzz/my-blog
 
-cd -
+echo "部署成功"

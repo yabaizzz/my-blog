@@ -1,11 +1,6 @@
-// const {defineConfig} = require('@vue/cli-service')
-module.exports = {
-    publicPath: process.env.NODE_ENV === 'production'
-        ? '/my-project/'
-        : '/',
+const {defineConfig} = require('@vue/cli-service')
+module.exports = defineConfig({
+    publicPath: './',
+    lintOnSave: false,
     transpileDependencies: true,
-
-    //是否开启eslint保存测验，有效值：true | false | 'error'
-    lintOnSave: false
-
-}
+})
