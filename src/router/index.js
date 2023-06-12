@@ -22,7 +22,7 @@ const routes = [
         name: "home",
         component: () => import('@/views/home/index.vue'),
         meta: {
-            title: '书架',
+            title: `YaBai's Blog`,
             keepAlive: false,
             tabShow: true
         }

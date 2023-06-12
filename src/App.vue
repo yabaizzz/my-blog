@@ -6,7 +6,7 @@
     <component v-wechat-title='Route.meta.title' :is="Component" :key="Route.name" v-if="!Route.meta.keepAlive"/>
   </router-view>
 
-  <tabbar v-if="Route.meta.tabShow == true"></tabbar>
+<!--  <tabbar v-if="Route.meta.tabShow == true"></tabbar>-->
 
 </template>
 
@@ -44,7 +44,7 @@ body {
 //}
 
 .root {
-  padding-bottom: 60px;
+  //padding-bottom: 60px;
   box-sizing: border-box;
 }
 </style>

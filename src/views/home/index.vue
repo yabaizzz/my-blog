@@ -1,11 +1,11 @@
 <template>
   <div class="root">
-    qeqweqweqwe
+    <topBar></topBar>
   </div>
 </template>
 
 <script setup>
-import mapEach from '@/components/map/map.vue'
+import topBar from '@/components/topBar/index.vue'
 import {onMounted} from "vue";
 import {useRoute} from 'vue-router';
 

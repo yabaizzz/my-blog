@@ -1,7 +1,7 @@
 import {createApp} from 'vue'
 import App from './App.vue'
 import router from './router'
-import '../rem'
+// import '../rem'
 // import store from './store'
 import {createPinia} from 'pinia'   //使用pinia代替vuex
 
