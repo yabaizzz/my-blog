@@ -28,9 +28,7 @@ onMounted(() => {
   })
   router.push({
     name: 'home',
-    query: {
-      id: 2
-    }
+    query: {}
   })
   // api.proxy.$request.getUser({user_id: 2}).then(res => {
   //   console.log(res,'resres')
