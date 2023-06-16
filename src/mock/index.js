@@ -6,6 +6,8 @@ import Mock from 'mockjs'  //导入mockjs
 
 Mock.mock('/getList?page=1', 'get', {
     status: 200, //请求成功状态码
+    allpage:2,
+    currentPage:1,
     dataList: [
         {
             title: '使用 Poi-tl 类库实现 Echarts 图表 + 前端表格导出到 Word 文档',
@@ -47,6 +49,8 @@ Mock.mock('/getList?page=1', 'get', {
 })
 Mock.mock('/getList?page=2', 'get', {
     status: 200, //请求成功状态码
+    allpage:2,
+    currentPage:2,
     dataList: [
         {
             title: '关圣帝君觉世真经',
