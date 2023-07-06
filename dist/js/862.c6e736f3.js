@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunktemplate"]=self["webpackChunktemplate"]||[]).push([[862],{2862:function(t,e,n){n.r(e),n.d(e,{default:function(){return c}});var r=n(3396);n(4870),n(7139),n(9242),n(7262),n(6265),n(6369);n(89);const a={class:"root"};var s={name:"doctorIndex",setup(t){return(t,e)=>((0,r.wg)(),(0,r.iD)("div",a," 1111 "))}};const u=s;var c=u}}]);
+//# sourceMappingURL=862.c6e736f3.js.map
